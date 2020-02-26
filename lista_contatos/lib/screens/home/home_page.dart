@@ -60,32 +60,6 @@ class _HomePageState extends State<HomePage> {
         child: Icon(Icons.add),
         backgroundColor: Colors.deepOrange,
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomAppBar(
-        color: Colors.deepOrange,
-        shape: CircularNotchedRectangle(
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: <Widget>[
-            IconButton(
-              icon: Icon(Icons.note_add),
-              color: Colors.white,
-              onPressed: (){
-
-              },
-            ),
-            IconButton(
-              icon: Icon(Icons.search),
-              color: Colors.white,
-              onPressed: (){
-
-              },
-            ),
-          ],
-        ),
-      ),
       body: _buildListView(),
     );
   }
