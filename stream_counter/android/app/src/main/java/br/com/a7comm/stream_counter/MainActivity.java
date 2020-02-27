@@ -1,4 +1,4 @@
-package br.com.a7comm.conta_central;
+package br.com.a7comm.stream_counter;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

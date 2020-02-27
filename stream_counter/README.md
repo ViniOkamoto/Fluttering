@@ -1,4 +1,4 @@
-# conta_central
+# stream_counter
 
 A new Flutter application.
 
